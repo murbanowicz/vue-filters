@@ -3,6 +3,14 @@ Custom filters for VueJS
 
 Feel free to use it. If you do that, please star/watch to show me that.
 
+# Available filters
+1. dateAndDay - shows date and day name
+2. dateOnly - shows only date. Useful when you have dateTime values from DB
+3. dayOnly - shows only day name from dateTime
+4. timeOnly - shows only time from dateTime
+5. truncate(length) - self explainable. 
+6. round(digits) - round number to limited number of digits. `if(!digits)` round without any digit after comma.
+
 # Usage
 
 If you are using single file components with e.g. Webpack,
